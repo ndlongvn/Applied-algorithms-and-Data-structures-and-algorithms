@@ -1,4 +1,4 @@
 *.ipynb
 *.exe
-*.cph
+.cph
 *.bin
