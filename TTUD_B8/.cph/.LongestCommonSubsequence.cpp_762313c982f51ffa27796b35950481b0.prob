@@ -1,0 +1,1 @@
+{"name":"Local: LongestCommonSubsequence","url":"d:\\C C++\\TTUD_B8\\LongestCommonSubsequence.cpp","tests":[{"id":1669876544745,"input":"7 10\n3 7 2 5 1 4 9\n4 3 2 3 6 1 5 4 9 7","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\C C++\\TTUD_B8\\LongestCommonSubsequence.cpp","group":"local","local":true}

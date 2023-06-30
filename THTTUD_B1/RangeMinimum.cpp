@@ -3,7 +3,7 @@ using namespace std;
 #define MAX 1000001
 int a[MAX];
 int M[MAX][25];
-int n;
+int n, m;
 int main(){
     cin>>n;
     for(int i=1; i<=n; i++){
@@ -12,7 +12,7 @@ int main(){
     }
     for(int j=1; j<=log2(n); j++){
         for(int i=1; i<=n-(1<<j)+1; i++){
-            M[i][j]= min(M[i][j-1], M[i+(1<<j)-1][j-1]);
+            M[i][j]= min(M[i][j-1], M[i+1<<j-1][j-1]);
         }
     }
     cin>> m;

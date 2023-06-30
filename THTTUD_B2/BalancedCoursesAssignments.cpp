@@ -71,8 +71,7 @@ void Try(int h){ // chon thay cho mon h
             else{
                 if(checkmax()<f_min){
                     Try(h+1); 
-                }
-                
+                }                
             }          
             setcourse[h]= 0;
             countcourse[i]-=1;
